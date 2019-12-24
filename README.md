@@ -20,6 +20,12 @@ com infraestrutura adequada para desempenhar suas funções, inspirando-se no Ai
   * Versionamento de documentos
   * Fácil integração
   
+  Sobre as deficiências do banco, notei as seguintes:
+  * Limite de 16 MB do documento
+  * Complexidade para realizar relacionamentos - Quando preciso ter um documento com uma quantidade considerável de relacionamentos,
+  a escrita começa a ficar muito verbosa e complicada. Nesses casos é melhor utilizar um banco de dados relacional.
+  * Grande alocação de memória - O banco de dados aloca já de início, 64 MB de mémória. Quando esse tamanho é atingido, ele começa a      alocar de forma escalar (128, 256, 512, 1024 e finalmente 2048 Mb. A partir de então todo novo arquivo possuirá 2 Gb de tamanho)
+    
   > Caso deseje criar o servidor e o cluster para testes do projeto, utilize usuário: ``` omnistack ``` e senha: ``` omnistack ```
 
 ### Backend
