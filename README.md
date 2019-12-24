@@ -24,6 +24,7 @@ com infraestrutura adequada para desempenhar suas funções, inspirando-se no Ai
 
 ### Backend
   O backend foi desenvolvido em Node.js. Foi possível explorar aspectos da liguagem, tais como: 
+  * Criação de **API REST**
   * Conexão com **banco não relacional**
   * Como disponibilizar o **servidor**
   * Padrão **MVC**
