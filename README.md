@@ -32,6 +32,7 @@ com infraestrutura adequada para desempenhar suas funções, inspirando-se no Ai
   * Construção e direcionamento de **rotas**
   * *Extra:* Uso do **Insomnia** para visualização/manipulação de rotas e registros do banco de dados.
   
+  > Para iniciar o servidor, acione o comando ```npm run dev``` (Necessário ter o npm instalado)
   > Para visualizar o repositório do backend, [clique aqui](backend)
     
 ### Frontend
@@ -44,6 +45,8 @@ com infraestrutura adequada para desempenhar suas funções, inspirando-se no Ai
     * Comunidade crescente e disposta a auxiliar
     * Agilidade no desenvolvimento
 
+ > Para rodar a aplicação, acione o comando ```npm start``` (Necessário ter o npm instalado). Caso queira iniciar pelo **Electron**, 
+ acione o comando ```npm start electron .```
  > Para visualizar o repositório do frontend, [clique aqui](frontend)
 
 # Telas da aplicação
